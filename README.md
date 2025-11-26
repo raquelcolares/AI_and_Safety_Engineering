@@ -1,5 +1,6 @@
 # AI and Safety Engineering
----
+## AI system for Detecting PPE and Improving Workplace Safety 
+By Raquel Colares
 
 Ensuring workplace safety is a critical priority across many environments, such as construction sites, industrial settings, and any other place where workers are exposed to potential hazards. Because of that, Personal Protective Equipment (PPE) acts as the first line of defense against injuries, making accurate and consistent monitoring essential for preventing accidents and promoting safer working conditions. With AI, more specifically in computer vision, it is now possible to detect and monitor PPE in a much more frequent and consistent way, reducing human error and helping safety teams.
 
@@ -9,7 +10,7 @@ The objective of this project is to build an AI system capable of detecting Pers
 
 ### Data 
 
-The dataset used in this project is based on the Construction PPE dataset provided by Ultralytics, referenced at the end of this project. It includes labeled images for various safety equipment such as helmet, gloves, vest, boots, goggles, none, person, no_helmet, no_goggle, no_gloves, and no_boots. 
+The dataset used in this project is based on the Construction PPE dataset provided by Ultralytics, referenced at the end of this project. It icludes images and labels for 11 classes such as helmet, gloves, vest, boots, goggles, none, person, no_helmet, no_goggle, no_gloves, and no_boots. 
 
 
 ### Simple CNN 
@@ -26,6 +27,7 @@ The dataset used in this project is based on the Construction PPE dataset provid
 
 ### Project structure
 
+```
 .
 ├── images/                              # Image dataset
 ├── labels/                              # Label dataset
@@ -45,7 +47,7 @@ The dataset used in this project is based on the Construction PPE dataset provid
 ├── backend.py                           # Backend pipeline 
 ├── requirements.txt                     # Dependencies list
 └── README.md                            # Project documentation
-
+```
 
 
 
@@ -66,3 +68,5 @@ Or on VS Code:
 
 
 ### References 
+
+ULTRALYTICS. *Construction-PPE dataset*. Available at:  https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/construction-ppe.yaml (Accessed: October 2025)
