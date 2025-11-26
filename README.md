@@ -1,6 +1,6 @@
 # AI and Safety Engineering
 
-**AI system for Detecting PPE and Improving Workplace Safety**
+## AI system for Detecting PPE and Improving Workplace Safety
 
 *By Raquel Colares*
 
