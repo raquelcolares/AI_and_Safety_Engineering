@@ -1,5 +1,10 @@
 import streamlit as st
 from PIL import Image
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 
 from backend import (
     load_simple_cnn, load_resnet50, load_yolo,
