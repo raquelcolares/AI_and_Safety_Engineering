@@ -1,8 +1,8 @@
 # AI and Safety Engineering
-## AI system for Detecting PPE and Improving Workplace Safety 
+AI system for Detecting PPE and Improving Workplace Safety 
 *By Raquel Colares*
 ---
-
+ 
 Ensuring workplace safety is a critical priority across many environments, such as construction sites, industrial settings, and any other place where workers are exposed to potential hazards. Because of that, Personal Protective Equipment (PPE) acts as the first line of defense against injuries, making accurate and consistent monitoring essential for preventing accidents and promoting safer working conditions. With AI, more specifically in computer vision, it is now possible to detect and monitor PPE in a much more frequent and consistent way, reducing human error and helping safety teams.
 
 ### Objective
@@ -16,14 +16,18 @@ The dataset used in this project is based on the Construction PPE dataset provid
 
 ### Simple CNN 
 
+It was built a simple CNN architecture from scratch for multi-label classification of PPE items. The model learns to identify which PPE equipment are present in an image across the 11 classes. This approach worked as a baseline to understand how well a simple convolutional network can perform on the PPE detection task without using pre-trained weights.
 
 
 ### ResNet50
 
+It was built a multi-label classification model using ResNet50 with transfer learning. Like the simple CNN, it predicts which PPE items are present in an image, but uses pre-trained weights to achieve better feature extraction and higher accuracy. 
+The pre-trained layers were frozen, and only the final layers were trained on the PPE dataset. 
 
 
 ### Yolov8
 
+Different the two other classification models, YOLOv8 does object detection. It finds and draws bounding boxes around each PPE item in the image. This makes it the most practical solution for real-world applications since it provides both classification and localization of PPE items. Despite ResNet50's higher accuracy in classification, YOLOv8 is the best choice for monitoring PPE effectively.
 
 
 ### Project structure
