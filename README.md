@@ -1,6 +1,7 @@
 # AI and Safety Engineering
 ## AI system for Detecting PPE and Improving Workplace Safety 
-By Raquel Colares
+*By Raquel Colares*
+---
 
 Ensuring workplace safety is a critical priority across many environments, such as construction sites, industrial settings, and any other place where workers are exposed to potential hazards. Because of that, Personal Protective Equipment (PPE) acts as the first line of defense against injuries, making accurate and consistent monitoring essential for preventing accidents and promoting safer working conditions. With AI, more specifically in computer vision, it is now possible to detect and monitor PPE in a much more frequent and consistent way, reducing human error and helping safety teams.
 
@@ -45,10 +46,9 @@ The dataset used in this project is based on the Construction PPE dataset provid
 ├── demo/                                # Demo video 
 │
 ├── backend.py                           # Backend pipeline 
-├── requirements.txt                     # Dependencies list
+├── requirements.txt                     # Requirements and libraries dependencies
 └── README.md                            # Project documentation
 ```
-
 
 
 ### Visualization
