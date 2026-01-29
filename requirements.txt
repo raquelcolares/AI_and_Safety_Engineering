@@ -1,7 +1,7 @@
 torch
 torchvision
 Pillow
-opencv-python-headless==4.8.0.76
+opencv-python-headless
 ultralytics
 
 
